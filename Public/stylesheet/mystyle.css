@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-color: #F3F3F3;
+  font-family: 'Muli', sans-serif;
+}
+
+#userBar {
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+#logo {
+  top: 0;
+  width: 100vw;
+  padding-top: 30px;
+  color: #FE6E2E;
+  font-size: 5em;
+  font-weight: bold;
+  position:relative;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#navBar {
+  width: 100vw;
+  font-size: 2em;
+  margin-top: 20px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #19323C;
+  margin:5px;
+}
+
+a:hover {
+  color: #FE6E2E;
+}
+
+a:active {
+  color: #FE6E2E;
+}
+
+.contentclass {
+  width: 100vw;
+  height: 60vh;
+  display:block;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  clear: both;
+  font-size:1.5em;
+  overflow: scroll;
+  margin-top: 50px;
+  
+}
+.contentclass1 {
+  width: 100vw;
+  height: 50vh;
+  display:block;
+  position: relative;
+  text-align: left;
+  justify-content: center;
+/*
+  
+  overflow: scroll;
+*/
+  margin-top: 50px;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+hr { 
+  border-top: 1px solid #19323C;
+}
+
+#showImg {
+  width: 20vw;
+  height:50vh;
+  background-size: cover;
+}
+
+#title {
+  font-size: 6em;
+  border-bottom: 1px solid #19323C;
+}
+
+#footer {
+  width: 100vw;
+  height: 80px;
+  bottom: 0;
+  background-color: #FE6E2E;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 900;
+  position:fixed;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  
+}
+
+#searchBox{
+  width: 60vw;
+  background-color: antiquewhite;
+  justify-content: center;
+}
+
+#infoBox {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 20px;
+}
+
+#movieBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#flexBox {
+  display: flex;
+  flex-direction: row;
+}
+
+#meme {
+  background-image: url(../images/meme.jpg);
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(87, 89, 90, 0.3);
+  width: 500px;
+  height: 300px;
+  margin: 2%;
+  justify-content: center;
+}
+
+#homeBox {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+}
